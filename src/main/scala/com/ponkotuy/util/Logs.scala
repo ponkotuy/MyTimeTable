@@ -3,7 +3,7 @@ package com.ponkotuy.util
 import org.apache.log4j._
 
 trait Logs {
-    private[this] val logger = Logger.getLogger(getClass().getName());
+    private[this] val logger = Logger.getLogger(getClass.getName)
 
     import org.apache.log4j.Level._
 
